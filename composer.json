@@ -1,0 +1,9 @@
+{
+  "name": "viktor/roadrunnerplayaround",
+  "description": "Play around roadrunner and golang",
+  "require": {
+    "php": ">=7.0",
+    "spiral/roadrunner" : "*",
+    "spiral/dumper": "^1.1"
+  }
+}

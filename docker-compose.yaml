@@ -1,0 +1,10 @@
+version: "3.6"
+
+services:
+    phpfpm:
+        build:
+            context: ./.docker/phpfpm
+        volumes:
+          - ./:/code
+        ports:
+            - "8888:8888"

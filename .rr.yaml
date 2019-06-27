@@ -1,0 +1,13 @@
+http:
+  address:    0.0.0.0:8888
+  workers:
+    command:  "php worker.php"
+    pool:
+      numWorkers: 4
+
+rpc:
+  # enable rpc server
+  enable: true
+
+  # rpc connection DSN. Supported TCP and Unix sockets.
+  listen:     tcp://127.0.0.1:6001
